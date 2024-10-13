@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f4f4f4;
+}
+
+header {
+  background-color: #0d1b2a;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  background: linear-gradient(to right, #1b263b, #415a77);
+  color: white;
+  padding: 100px;
+  text-align: center;
+}
+
+.highlight {
+  color: #fca311;
+}
+
+.btn {
+  background-color: #fca311;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.profile-img {
+  width: 150px; /* Adjust the size as needed */
+  height: auto;
+  border-radius: 50%; /* Circular image */
+  margin: 20px 0; /* Spacing around the image */
+}
+
+.skill-set {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0;
+}
+
+.skill-card {
+  background-color: white;
+  padding: 20px;
+  width: 30%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.projects {
+  padding: 50px 20px;
+  background-color: #e0e0e0;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-around;
+}
+
+.project-card {
+  background-color: white;
+  padding: 20px;
+  width: 30%;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+#project-details {
+  display: none;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer {
+  background-color: #0d1b2a;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
